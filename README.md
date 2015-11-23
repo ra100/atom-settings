@@ -12,3 +12,13 @@ install packages
 make install
 ```
 
+save .jsbeautifyrc
+```shell
+make save.js
+```
+
+load .jsbeautifyrc
+```shell
+make load.js
+```
+
