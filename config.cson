@@ -97,7 +97,8 @@
     texBin: "/usr/bin/tex"
     bibtexEnabled: true
   "grunt-runner": {}
-  "git-plus": {}
+  "git-plus":
+    gitPath: "/usr/bin/git"
   navigate:
     dblclk: true
 ".js.regexp.replacement.source":
