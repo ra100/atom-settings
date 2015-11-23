@@ -101,6 +101,8 @@
     gitPath: "/usr/bin/git"
   navigate:
     dblclk: true
+  "git-history":
+    showDiff: false
 ".js.regexp.replacement.source":
   editor:
     tabLength: 4

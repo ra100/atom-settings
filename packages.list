@@ -3,7 +3,6 @@ atom-autocomplete-php
 atom-beautify
 atom-format-lua
 atom-minify
-atom-typescript
 bottom-dock
 color-picker
 commentcode
@@ -16,6 +15,7 @@ file-icons
 foldername-tabs
 gfm-pdf
 git-diff-details
+git-history
 git-plus
 graphite-ui
 grunt-runner
