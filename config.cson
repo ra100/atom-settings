@@ -14,7 +14,6 @@
       "language-javascript-jsx"
       "linter-jsxhint"
       "linter-chktex"
-      "atom-typescript"
       "advanced-open-file"
       "linter-markdown"
       "markdown-preview-plus"
@@ -104,23 +103,23 @@
 ".js.regexp.replacement.source":
   editor:
     tabLength: 4
-".coffee.jsx.source":
-  editor:
-    softWrap: true
-    autoIndentOnPaste: true
-".js.regexp.source":
-  editor:
-    tabLength: 4
 ".js.jsx.source":
   editor:
     tabLength: 2
     softWrapAtPreferredLineLength: true
     softWrap: true
-".drupal.source":
+".js.regexp.source":
   editor:
-    showIndentGuide: true
+    tabLength: 4
+".coffee.jsx.source":
+  editor:
+    softWrap: true
+    autoIndentOnPaste: true
 ".js.source":
   editor:
     tabLength: 4
+".drupal.source":
+  editor:
+    showIndentGuide: true
 "atom-format-lua":
   lua51: "/usr/bin/lua5.1"
