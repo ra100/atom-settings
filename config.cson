@@ -1,0 +1,126 @@
+"*":
+  "exception-reporting":
+    userId: "3150446c-fbf9-6dd0-54b2-2eb2d3c90336"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "nucleus-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+    disabledPackages: [
+      ".bin"
+      "linter-jshint"
+      "language-javascript-jsx"
+      "linter-jsxhint"
+      "linter-chktex"
+      "atom-typescript"
+      "advanced-open-file"
+      "linter-markdown"
+      "markdown-preview-plus"
+      "markdown-pdf"
+      "navigate"
+    ]
+  editor:
+    invisibles: {}
+  "atom-beautify":
+    _analyticsUserId: "ee112437-8958-40b0-8e6a-cbe3efabb293"
+    css_newline_between_rules: true
+    js_end_with_comma: true
+    js_break_chained_methods: true
+    js_eval_code: true
+    js_jslint_happy: true
+    php_cs_fixer_path: "/usr/local/bin/php-cs-fixer"
+    php_level: "psr1"
+  "tree-view-git-status": {}
+  "atom-terminal-panel": {}
+  "terminal-panel": {}
+  "terminal-status": {}
+  "ult-terminal": {}
+  "slim-dark-ui": {}
+  "one-dark-ui": {}
+  drupal:
+    fileTypesPhp: "module,install,inc,test"
+  "nuclide-click-to-symbol":
+    useCmdKey: true
+  linter:
+    errorPanelHeight: 114
+  wakatime:
+    apikey: "2aa4d346-0817-477e-bdaa-95896ee9f1f7"
+  "linter-jshint":
+    lintInlineJavaScript: true
+  "autocomplete-plus": {}
+  "atom-autocomplete-php": {}
+  goto: {}
+  "symbols-tree-view":
+    autoToggle: true
+  pigments: {}
+  "merge-conflicts": {}
+  minimap: {}
+  "atom-typescript": {}
+  "php-analyser":
+    phpExecutablePath: "/usr/bin/php"
+  "linter-php":
+    executablePath: "/usr/bin/php"
+  "linter-scss-lint": {}
+  whitespace:
+    ensureSingleTrailingNewline: false
+  "linter-phpcs":
+    executablePath: "/usr/bin/phpcs"
+    tabWidth: 2
+    ignore: "*.blade.php,*.twig.php,*.module,*.install,*.inc"
+  docblockr: {}
+  "foldername-tabs": {}
+  "markdown-preview-plus": {}
+  "linter-jsxhint":
+    jsxhintExecutablePath: "/usr/local/bin/jsxhint"
+    harmony: true
+  react:
+    enabledForAllJavascriptFiles: true
+  "linter-eslint":
+    globalNodePath: "/usr/local"
+    useGlobalEslint: true
+  "language-babel": {}
+  "remote-sync": {}
+  "atom-minify":
+    jsMinifier: "Google Closure Compiler"
+  "linter-drupalcs":
+    executablePath: "/usr/local/bin/phpcs"
+    ignore: "*.js,*.md"
+  "linter-lua":
+    executablePath: "/usr/bin/luajit"
+  "gfm-pdf": {}
+  "spell-check": {}
+  latex:
+    alwaysOpenResultInAtom: true
+  "linter-chktex": {}
+  "latex-plus":
+    texBin: "/usr/bin/tex"
+    bibtexEnabled: true
+  "grunt-runner": {}
+  "git-plus": {}
+  navigate:
+    dblclk: true
+".js.regexp.replacement.source":
+  editor:
+    tabLength: 4
+".coffee.jsx.source":
+  editor:
+    softWrap: true
+    autoIndentOnPaste: true
+".js.regexp.source":
+  editor:
+    tabLength: 4
+".js.jsx.source":
+  editor:
+    tabLength: 2
+    softWrapAtPreferredLineLength: true
+    softWrap: true
+".drupal.source":
+  editor:
+    showIndentGuide: true
+".js.source":
+  editor:
+    tabLength: 4
+"atom-format-lua":
+  lua51: "/usr/bin/lua5.1"

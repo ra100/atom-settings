@@ -1,0 +1,6 @@
+'atom-text-editor':
+  'alt-shift-a': 'atom-beautify:beautify-editor'
+  'ctrl-shift-z': 'core:redo'
+
+'atom-workspace':
+  'ctrl-alt-g': 'symbol-gen:generate'
