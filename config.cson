@@ -15,9 +15,6 @@
       "linter-jsxhint"
       "linter-chktex"
       "advanced-open-file"
-      "linter-markdown"
-      "markdown-preview-plus"
-      "markdown-pdf"
       "navigate"
     ]
   editor:
@@ -51,8 +48,7 @@
   "autocomplete-plus": {}
   "atom-autocomplete-php": {}
   goto: {}
-  "symbols-tree-view":
-    autoToggle: true
+  "symbols-tree-view": {}
   pigments: {}
   "merge-conflicts": {}
   minimap: {}
@@ -106,23 +102,23 @@
 ".js.regexp.replacement.source":
   editor:
     tabLength: 4
+".coffee.jsx.source":
+  editor:
+    softWrap: true
+    autoIndentOnPaste: true
+".js.regexp.source":
+  editor:
+    tabLength: 4
 ".js.jsx.source":
   editor:
     tabLength: 2
     softWrapAtPreferredLineLength: true
     softWrap: true
-".js.regexp.source":
-  editor:
-    tabLength: 4
-".coffee.jsx.source":
-  editor:
-    softWrap: true
-    autoIndentOnPaste: true
-".js.source":
-  editor:
-    tabLength: 4
 ".drupal.source":
   editor:
     showIndentGuide: true
+".js.source":
+  editor:
+    tabLength: 4
 "atom-format-lua":
   lua51: "/usr/bin/lua5.1"

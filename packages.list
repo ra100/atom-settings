@@ -27,6 +27,7 @@ language-generic-config
 language-javascript-jsx
 language-latex
 language-lua
+language-nginx
 latex
 line-diff-details
 linter
@@ -40,8 +41,6 @@ linter-markdown
 linter-phpcs
 linter-scss-lint
 make-runner
-markdown-pdf
-markdown-preview-plus
 merge-conflicts
 minimap
 navigate
