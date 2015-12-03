@@ -8,17 +8,9 @@
       "nucleus-dark-ui"
       "base16-tomorrow-dark-theme"
     ]
-    disabledPackages: [
-      ".bin"
-      "linter-jshint"
-      "language-javascript-jsx"
-      "linter-jsxhint"
-      "linter-chktex"
-      "advanced-open-file"
-      "navigate"
-    ]
   editor:
     invisibles: {}
+    fontSize: 15
   "atom-beautify":
     _analyticsUserId: "ee112437-8958-40b0-8e6a-cbe3efabb293"
     css_newline_between_rules: true
@@ -28,6 +20,7 @@
     js_jslint_happy: true
     php_cs_fixer_path: "/usr/local/bin/php-cs-fixer"
     php_level: "psr1"
+    language_js_default_beautifier: "Pretty Diff"
   "tree-view-git-status": {}
   "atom-terminal-panel": {}
   "terminal-panel": {}
@@ -40,7 +33,7 @@
   "nuclide-click-to-symbol":
     useCmdKey: true
   linter:
-    errorPanelHeight: 114
+    errorPanelHeight: 113
   wakatime:
     apikey: "2aa4d346-0817-477e-bdaa-95896ee9f1f7"
   "linter-jshint":
@@ -99,14 +92,9 @@
     dblclk: true
   "git-history":
     showDiff: false
+  "lessc-on-save":
+    enabled: false
 ".js.regexp.replacement.source":
-  editor:
-    tabLength: 4
-".coffee.jsx.source":
-  editor:
-    softWrap: true
-    autoIndentOnPaste: true
-".js.regexp.source":
   editor:
     tabLength: 4
 ".js.jsx.source":
@@ -114,11 +102,18 @@
     tabLength: 2
     softWrapAtPreferredLineLength: true
     softWrap: true
-".drupal.source":
+".js.regexp.source":
   editor:
-    showIndentGuide: true
+    tabLength: 4
+".coffee.jsx.source":
+  editor:
+    softWrap: true
+    autoIndentOnPaste: true
 ".js.source":
   editor:
     tabLength: 4
+".drupal.source":
+  editor:
+    showIndentGuide: true
 "atom-format-lua":
   lua51: "/usr/bin/lua5.1"
