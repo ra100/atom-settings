@@ -1,119 +1,119 @@
 "*":
-  "exception-reporting":
-    userId: "3150446c-fbf9-6dd0-54b2-2eb2d3c90336"
-  welcome:
-    showOnStartup: false
+  "ansible-galaxy": {}
+  "atom-autocomplete-php": {}
+  "atom-beautify":
+    _analyticsUserId: "ee112437-8958-40b0-8e6a-cbe3efabb293"
+    css_newline_between_rules: true
+    js_break_chained_methods: true
+    js_end_with_comma: true
+    js_eval_code: true
+    js_jslint_happy: true
+    language_js_default_beautifier: "Pretty Diff"
+    php_cs_fixer_path: "/usr/local/bin/php-cs-fixer"
+    php_level: "psr1"
+  "atom-minify": {}
+  "atom-terminal-panel": {}
+  "atom-typescript": {}
+  "autocomplete-plus": {}
   core:
     themes: [
       "nucleus-dark-ui"
       "base16-tomorrow-dark-theme"
     ]
-  editor:
-    invisibles: {}
-    fontSize: 15
-  "atom-beautify":
-    _analyticsUserId: "ee112437-8958-40b0-8e6a-cbe3efabb293"
-    css_newline_between_rules: true
-    js_end_with_comma: true
-    js_break_chained_methods: true
-    js_eval_code: true
-    js_jslint_happy: true
-    php_cs_fixer_path: "/usr/local/bin/php-cs-fixer"
-    php_level: "psr1"
-    language_js_default_beautifier: "Pretty Diff"
-  "tree-view-git-status": {}
-  "atom-terminal-panel": {}
-  "terminal-panel": {}
-  "terminal-status": {}
-  "ult-terminal": {}
-  "slim-dark-ui": {}
-  "one-dark-ui": {}
+  docblockr: {}
   drupal:
     fileTypesPhp: "module,install,inc,test"
-  "nuclide-click-to-symbol":
-    useCmdKey: true
-  linter:
-    errorPanelHeight: 113
-  wakatime:
-    apikey: "2aa4d346-0817-477e-bdaa-95896ee9f1f7"
-  "linter-jshint":
-    lintInlineJavaScript: true
-  "autocomplete-plus": {}
-  "atom-autocomplete-php": {}
-  goto: {}
-  "symbols-tree-view": {}
-  pigments: {}
-  "merge-conflicts": {}
-  minimap: {}
-  "atom-typescript": {}
-  "php-analyser":
-    phpExecutablePath: "/usr/bin/php"
-  "linter-php":
-    executablePath: "/usr/bin/php"
-  "linter-scss-lint": {}
-  whitespace:
-    ensureSingleTrailingNewline: false
-  "linter-phpcs":
-    executablePath: "/usr/bin/phpcs"
-    tabWidth: 2
-    ignore: "*.blade.php,*.twig.php,*.module,*.install,*.inc"
-  docblockr: {}
+  editor:
+    fontSize: 15
+    invisibles: {}
+  "exception-reporting":
+    userId: "3150446c-fbf9-6dd0-54b2-2eb2d3c90336"
   "foldername-tabs": {}
-  "markdown-preview-plus": {}
-  "linter-jsxhint":
-    jsxhintExecutablePath: "/usr/local/bin/jsxhint"
-    harmony: true
-  react:
-    enabledForAllJavascriptFiles: true
-  "linter-eslint":
-    globalNodePath: "/usr/local"
-    useGlobalEslint: true
+  "gfm-pdf": {}
+  "git-history":
+    showDiff: false
+  "git-plus":
+    gitPath: "/usr/bin/git"
+  goto: {}
+  "grunt-runner": {}
   "language-babel": {}
-  "remote-sync": {}
-  "atom-minify":
-    jsMinifier: "Google Closure Compiler"
+  latex:
+    alwaysOpenResultInAtom: true
+  "latex-plus":
+    bibtexEnabled: true
+    texBin: "/usr/bin/tex"
+  "lessc-on-save":
+    enabled: false
+  linter:
+    errorPanelHeight: 77
+  "linter-chktex": {}
   "linter-drupalcs":
     executablePath: "/usr/local/bin/phpcs"
     ignore: "*.js,*.md"
+  "linter-eslint":
+    globalNodePath: "/usr/local"
+    useGlobalEslint: true
+  "linter-jshint":
+    lintInlineJavaScript: true
+  "linter-jsxhint":
+    harmony: true
+    jsxhintExecutablePath: "/usr/local/bin/jsxhint"
   "linter-lua":
     executablePath: "/usr/bin/luajit"
-  "gfm-pdf": {}
-  "spell-check": {}
-  latex:
-    alwaysOpenResultInAtom: true
-  "linter-chktex": {}
-  "latex-plus":
-    texBin: "/usr/bin/tex"
-    bibtexEnabled: true
-  "grunt-runner": {}
-  "git-plus":
-    gitPath: "/usr/bin/git"
+  "linter-php":
+    executablePath: "/usr/bin/php"
+  "linter-phpcs":
+    executablePath: "/usr/bin/phpcs"
+    ignore: "*.blade.php,*.twig.php,*.module,*.install,*.inc,settings.php"
+    tabWidth: 2
+  "linter-scss-lint": {}
+  "markdown-preview-plus": {}
+  "merge-conflicts": {}
+  minimap: {}
   navigate:
     dblclk: true
-  "git-history":
-    showDiff: false
-  "lessc-on-save":
-    enabled: false
-".js.regexp.replacement.source":
-  editor:
-    tabLength: 4
-".js.jsx.source":
-  editor:
-    tabLength: 2
-    softWrapAtPreferredLineLength: true
-    softWrap: true
-".js.regexp.source":
-  editor:
-    tabLength: 4
+  "nuclide-click-to-symbol":
+    useCmdKey: true
+  "one-dark-ui": {}
+  "php-analyser":
+    phpExecutablePath: "/usr/bin/php"
+  pigments: {}
+  react:
+    enabledForAllJavascriptFiles: true
+  "remote-sync": {}
+  "slim-dark-ui": {}
+  "spell-check": {}
+  "symbols-tree-view": {}
+  "terminal-panel": {}
+  "terminal-status": {}
+  "tree-view-git-status": {}
+  "ult-terminal": {}
+  wakatime:
+    apikey: "2aa4d346-0817-477e-bdaa-95896ee9f1f7"
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
 ".coffee.jsx.source":
   editor:
-    softWrap: true
     autoIndentOnPaste: true
-".js.source":
-  editor:
-    tabLength: 4
+    softWrap: true
 ".drupal.source":
   editor:
     showIndentGuide: true
+".js.jsx.source":
+  editor:
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    tabLength: 2
+".js.regexp.replacement.source":
+  editor:
+    tabLength: 4
+".js.regexp.source":
+  editor:
+    tabLength: 4
+".js.source":
+  editor:
+    tabLength: 4
 "atom-format-lua":
   lua51: "/usr/bin/lua5.1"
