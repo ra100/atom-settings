@@ -1,6 +1,8 @@
+ansible-galaxy
 atom-autocomplete-php
 atom-beautify
 atom-format-lua
+atom-jinja2
 atom-minify
 bottom-dock
 color-picker
@@ -29,8 +31,10 @@ latex
 lessc-on-save
 line-diff-details
 linter
+linter-ansible-lint
 linter-drupalcs
 linter-eslint
+linter-js-yaml
 linter-less
 linter-lua
 linter-markdown
