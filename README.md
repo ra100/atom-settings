@@ -2,6 +2,16 @@
 
 Here I store my custom atom settings, with list of installed packages
 
+backup
+```shell
+make backup
+```
+
+restore
+```shell
+make restore
+```
+
 extract package list
 ```shell
 make export
