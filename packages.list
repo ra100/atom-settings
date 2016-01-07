@@ -21,6 +21,8 @@ git-plus
 grunt-runner
 gulp-manager
 hyperclick
+hyperclick-php
+indent-guide-improved
 js-hyperclick
 language-babel
 language-generic-config
