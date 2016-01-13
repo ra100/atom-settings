@@ -28,6 +28,7 @@ language-babel
 language-generic-config
 language-latex
 language-lua
+language-markdown
 language-nginx
 latex
 lessc-on-save
