@@ -16,6 +16,9 @@
   "atom-typescript": {}
   "autocomplete-plus": {}
   core:
+    disabledPackages: [
+      "language-gfm"
+    ]
     themes: [
       "nucleus-dark-ui"
       "base16-tomorrow-dark-theme"
@@ -45,11 +48,11 @@
   "lessc-on-save":
     enabled: false
   linter:
-    errorPanelHeight: 77
+    errorPanelHeight: 26
   "linter-chktex": {}
   "linter-drupalcs":
     executablePath: "/usr/local/bin/phpcs"
-    ignore: "*.js,*.md"
+    ignore: "*.js,*.md,*.features.field_base.inc,*.features.field_instance.inc,*.features.inc"
   "linter-eslint":
     globalNodePath: "/usr/local"
     useGlobalEslint: true
