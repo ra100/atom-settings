@@ -4,6 +4,9 @@ atom-beautify
 atom-format-lua
 atom-jinja2
 atom-minify
+atom-phpcs
+autocomplete-php
+auto-detect-indentation
 bottom-dock
 color-picker
 commentcode
@@ -12,6 +15,7 @@ docblockr
 drupal
 editor-stats
 external-open
+fast-eslint
 file-icons
 foldername-tabs
 gfm-pdf
@@ -35,8 +39,6 @@ lessc-on-save
 line-diff-details
 linter
 linter-ansible-lint
-linter-drupalcs
-linter-eslint
 linter-js-yaml
 linter-less
 linter-lua
@@ -47,16 +49,18 @@ make-runner
 merge-conflicts
 minimap
 nucleus-dark-ui
-nuclide-hack
 pdf-view
+phpcbf
 pigments
+project-manager
 react
 remote-sync
 split-diff
 ssh-config
-symbols-tree-view
+symbol-gen
 tabs-closer
 tabs-to-spaces
+todo-show
 trailing-spaces
 tree-view-git-status
 vertical-motion
