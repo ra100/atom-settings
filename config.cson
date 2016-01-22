@@ -7,16 +7,6 @@
     js_end_with_comma: true
     js_eval_code: true
     js_jslint_happy: true
-
-  "atom-minify":
-    jsMinifier: "Google Closure Compiler"
-    language_css_default_beautifier: "CSScomb"
-    language_js_default_beautifier: "Pretty Diff"
-    language_php_default_beautifier: "PHPCBF"
-    php_cs_fixer_path: "/usr/local/bin/php-cs-fixer"
-    php_level: "psr2"
-    php_phpcbf_path: "/usr/bin/phpcbf"
-    php_standard: "PEAR"
   "atom-minify": {}
   "atom-phpcs":
     cbfpath: "/usr/bin/phpcbf"
@@ -71,9 +61,6 @@
   "latex-plus":
     bibtexEnabled: true
     texBin: "/usr/bin/tex"
-  linter:
-    errorPanelHeight: 114
-  "linter-chktex": {}
   "lessc-on-save": {}
   linter:
     errorPanelHeight: 38

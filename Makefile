@@ -1,8 +1,8 @@
 help:                   ## Show this help.
 	@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//' | sed -e 's/##//'
 
-install:              ## installs apm packages from packages.list
-	cat packages.list | xargs apm install
+packages-restore:              ## installs apm packages from packages.list
+	./packages.sh
 
 export: packages/*/   ## saves list of packages to packages.list
 	ls packages/ > packages.list
@@ -24,5 +24,5 @@ backup:               ## export package list and commit and push all changes
 restore:              ## pull settings and install packages
 	git stash
 	git pull origin master
-	cat packages.list | xargs apm install
+	packages-restore
 	git stash pop
