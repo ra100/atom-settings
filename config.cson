@@ -8,16 +8,29 @@
     js_end_with_comma: true
     js_eval_code: true
     js_jslint_happy: true
+    language_css_default_beautifier: "CSScomb"
     language_js_default_beautifier: "Pretty Diff"
+    language_php_default_beautifier: "PHPCBF"
     php_cs_fixer_path: "/usr/local/bin/php-cs-fixer"
-    php_level: "psr1"
+    php_level: "psr2"
+    php_phpcbf_path: "/usr/bin/phpcbf"
+    php_standard: "PEAR"
   "atom-minify": {}
+  "atom-phpcs":
+    cbfpath: "/usr/bin/phpcbf"
+    path: "/usr/local/bin/phpcs"
   "atom-terminal-panel": {}
   "atom-typescript": {}
   "autocomplete-plus": {}
   core:
     disabledPackages: [
       "language-gfm"
+      "atom-phpcs"
+      "atom-autocomplete-php"
+      "tree-view"
+      "gulp-manager"
+      "ansible-galaxy"
+      "commentcode"
     ]
     themes: [
       "nucleus-dark-ui"
@@ -31,6 +44,8 @@
     invisibles: {}
   "exception-reporting":
     userId: "3150446c-fbf9-6dd0-54b2-2eb2d3c90336"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
   "foldername-tabs": {}
   "gfm-pdf": {}
   "git-history":
@@ -39,21 +54,23 @@
     gitPath: "/usr/bin/git"
   goto: {}
   "grunt-runner": {}
+  "js-hyperclick": {}
   "language-babel": {}
   latex:
     alwaysOpenResultInAtom: true
   "latex-plus":
     bibtexEnabled: true
     texBin: "/usr/bin/tex"
-  "lessc-on-save":
-    enabled: false
+  "lessc-on-save": {}
   linter:
-    errorPanelHeight: 26
+    errorPanelHeight: 38
   "linter-chktex": {}
   "linter-drupalcs":
+    disableWhenNoConfigFile: true
     executablePath: "/usr/local/bin/phpcs"
     ignore: "*.js,*.md,*.features.field_base.inc,*.features.field_instance.inc,*.features.inc"
   "linter-eslint":
+    disableWhenNoEslintConfig: false
     globalNodePath: "/usr/local"
     useGlobalEslint: true
   "linter-jshint":
@@ -67,7 +84,7 @@
     executablePath: "/usr/bin/php"
   "linter-phpcs":
     executablePath: "/usr/bin/phpcs"
-    ignore: "*.blade.php,*.twig.php,*.module,*.install,*.inc,settings.php"
+    ignore: "*.blade.php,*.twig.php,*.install,*.inc,settings.php"
     tabWidth: 2
   "linter-scss-lint": {}
   "markdown-preview-plus": {}
@@ -75,12 +92,14 @@
   minimap: {}
   navigate:
     dblclk: true
-  "nuclide-click-to-symbol":
-    useCmdKey: true
+  nuclide:
+    "nuclide-click-to-symbol":
+      useCmdKey: true
   "one-dark-ui": {}
   "php-analyser":
     phpExecutablePath: "/usr/bin/php"
-  pigments: {}
+  pigments:
+    markerType: "dot"
   react:
     enabledForAllJavascriptFiles: true
   "remote-sync": {}
