@@ -42,8 +42,7 @@ latex
 lessc-on-save
 line-diff-details
 linter
-linter-ansible-lint
-linter-eslint
+linter-ansible-linting
 linter-js-yaml
 linter-less
 linter-lua
@@ -64,7 +63,6 @@ split-diff
 ssh-config
 tabs-closer
 tabs-to-spaces
-tail
 todo-show
 trailing-spaces
 tree-view-git-status
