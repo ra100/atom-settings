@@ -15,7 +15,7 @@ load.js:              ## copy .jsbeautifyrc to home folder
 
 backup:               ## export package list and commit and push all changes
 	git commit -a -m "`date +%Y-%m-%d` before backup"
-	git pull origin master
+	git checkout (uname -n)
 	ls packages/ > packages.list
 	git add -A
 	git commit -a -m "`date +%Y-%m-%d` after backup"
