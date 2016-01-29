@@ -4,22 +4,18 @@ help:                   ## Show this help.
 packages-restore:              ## installs apm packages from packages.list
 	./packages.sh
 
-export: packages/*/   ## saves list of packages to packages.list
+export-packages: packages/*/   ## saves list of packages to packages.list
 	ls packages/ > packages.list
-
-save.js:              ## copy .jsbeautifyrc from home folder
-	cp ~/.jsbeautifyrc .jsbeautifyrc
-
-load.js:              ## copy .jsbeautifyrc to home folder
-	cp .jsbeautifyrc ~/.jsbeautifyrc
 
 backup:               ## export package list and commit and push all changes
 	git checkout master
-	git commit -a -m "`date +%Y-%m-%d` before backup"
+	git commit -a -m "`uname -n` before backup"
 	git checkout (uname -n)
 	ls packages/ > packages.list
+	git add packages.list
+	git commit packages.list -m "`uname -n` packages"
 	git add -A
-	git commit -a -m "`date +%Y-%m-%d` after backup"
+	git commit -a -m "other settings"
 	git push
 
 restore:              ## pull settings and install packages
