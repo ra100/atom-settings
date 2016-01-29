@@ -1,6 +1,7 @@
 ansible-galaxy
 atom-autocomplete-php
 atom-beautify
+atom-ctags
 atom-format-lua
 atom-jinja2
 atom-minify
@@ -21,6 +22,7 @@ foldername-tabs
 gfm-pdf
 git-diff-details
 git-history
+git-log
 git-plus
 grunt-runner
 gulp-manager
@@ -28,9 +30,11 @@ hyperclick
 hyperclick-php
 indent-guide-improved
 js-hyperclick
+language-apache
 language-babel
 language-generic-config
 language-latex
+language-log
 language-lua
 language-markdown
 language-nginx
@@ -38,6 +42,8 @@ latex
 lessc-on-save
 line-diff-details
 linter
+linter-ansible-lint
+linter-eslint
 linter-js-yaml
 linter-less
 linter-lua
@@ -56,9 +62,9 @@ react
 remote-sync
 split-diff
 ssh-config
-symbol-gen
 tabs-closer
 tabs-to-spaces
+tail
 todo-show
 trailing-spaces
 tree-view-git-status
