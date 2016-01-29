@@ -7,7 +7,16 @@
     js_end_with_comma: true
     js_eval_code: true
     js_jslint_happy: true
-  "atom-ctags": {}
+    language_markdown_default_beautifier: "Remark"
+    markdown_commonmark: true
+    markdown_footnotes: true
+    markdown_yaml: false
+  "atom-ctags":
+    GotoSymbolKey: [
+      "ctrl"
+    ]
+    buildTimeout: 30000
+    cmdArgs: "--exclude=.git --exclude=node_modules --exclude=vendor --exclude=bower_modules --exclude=.tmp --exclude=.sass-cache --exclude=sites/*/files --exclude=www/sites/*/files"
   "atom-minify": {}
   "atom-phpcs":
     cbfpath: "/usr/bin/phpcbf"
@@ -25,13 +34,18 @@
       "advanced-open-file"
       "navigate"
       "whitespace"
-      "language-gfm"
       "atom-phpcs"
       "atom-autocomplete-php"
       "tree-view"
       "gulp-manager"
       "ansible-galaxy"
       "commentcode"
+      "fast-eslint"
+      "language-markdown"
+      "symbols-view"
+      "js-hyperclick"
+      "hyperclick-php"
+      "hyperclick"
     ]
     themes: [
       "nucleus-dark-ui"
@@ -41,7 +55,7 @@
   drupal:
     fileTypesPhp: "module,install,inc,test"
   editor:
-    fontSize: 15
+    fontSize: 16
     invisibles: {}
   "exception-reporting":
     userId: "3150446c-fbf9-6dd0-54b2-2eb2d3c90336"
@@ -51,12 +65,15 @@
   "gfm-pdf": {}
   "git-history":
     showDiff: false
+  "git-log": {}
   "git-plus":
     gitPath: "/usr/bin/git"
   goto: {}
   "grunt-runner": {}
   "js-hyperclick": {}
   "language-babel": {}
+  "language-markdown":
+    disableLanguageGfm: false
   latex:
     alwaysOpenResultInAtom: true
   "latex-plus":
@@ -64,7 +81,7 @@
     texBin: "/usr/bin/tex"
   "lessc-on-save": {}
   linter:
-    errorPanelHeight: 38
+    errorPanelHeight: 50
   "linter-chktex": {}
   "linter-drupalcs":
     disableWhenNoConfigFile: true
@@ -72,7 +89,8 @@
     ignore: "*.js,*.md,*.features.field_base.inc,*.features.field_instance.inc,*.features.inc"
   "linter-eslint":
     disableWhenNoEslintConfig: false
-    globalNodePath: "/usr/local"
+    eslintrcPath: "/home/ra100/.eslintrc"
+    globalNodePath: "/home/ra100/.nvm/versions/node/v5.5.0"
     useGlobalEslint: true
   "linter-jshint":
     lintInlineJavaScript: true

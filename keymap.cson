@@ -1,6 +1,5 @@
 'atom-text-editor':
   'alt-shift-a': 'atom-beautify:beautify-editor'
   'ctrl-shift-z': 'core:redo'
-
-'atom-workspace':
-  'ctrl-alt-g': 'symbol-gen:generate'
+  'ctrl-shift-up': 'atom-ctags:return-from-declaration'
+  'ctrl-shift-down': 'atom-ctags:go-to-declaration'
