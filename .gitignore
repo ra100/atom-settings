@@ -8,3 +8,5 @@ packages
 storage
 nohup.out
 .git-history
+.tags
+.tags1
