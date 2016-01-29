@@ -7,6 +7,7 @@
     js_end_with_comma: true
     js_eval_code: true
     js_jslint_happy: true
+  "atom-ctags": {}
   "atom-minify": {}
   "atom-phpcs":
     cbfpath: "/usr/bin/phpcbf"
