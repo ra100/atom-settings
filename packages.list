@@ -49,6 +49,7 @@ linter-lua
 linter-markdown
 linter-phpcs
 linter-scss-lint
+local-settings
 make-runner
 merge-conflicts
 minimap
