@@ -16,7 +16,7 @@
       "ctrl"
     ]
     buildTimeout: 15000
-    cmdArgs: "--exclude=.git --exclude=node_modules --exclude=vendor --exclude=bower_modules --exclude=.tmp --exclude=.sass-cache --exclude=sites/*/files --exclude=www/sites/*/files"
+    cmdArgs: "--exclude=.git --exclude=node_modules --exclude=vendor --exclude=bower_modules --exclude=.tmp --exclude=.sass-cache --exclude=sites/*/files --exclude=www/sites/*/files --exclude=.remote-sync.json --exclude=sites/*/settings.php"
   "atom-minify": {}
   "atom-phpcs":
     cbfpath: "/usr/bin/phpcbf"
