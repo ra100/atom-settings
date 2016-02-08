@@ -8,15 +8,17 @@
     js_eval_code: true
     js_jslint_happy: true
     language_markdown_default_beautifier: "Remark"
+    language_php_default_beautifier: "PHPCBF"
     markdown_commonmark: true
     markdown_footnotes: true
     markdown_yaml: false
+    php_phpcbf_path: "/usr/bin/phpcbf"
   "atom-ctags":
     GotoSymbolKey: [
       "ctrl"
     ]
-    buildTimeout: 15000
-    cmdArgs: "--exclude=.git --exclude=node_modules --exclude=vendor --exclude=bower_modules --exclude=.tmp --exclude=.sass-cache --exclude=sites/*/files --exclude=www/sites/*/files --exclude=.remote-sync.json --exclude=sites/*/settings.php"
+    buildTimeout: 30000
+    cmdArgs: "--exclude=.git --exclude=node_modules --exclude=vendor --exclude=bower_modules --exclude=.tmp --exclude=.sass-cache --exclude=sites/*/files --exclude=www/sites/*/files --exclude=.remote-sync.json --exclude=sites/*/settings.php --exclude=libraries"
   "atom-minify": {}
   "atom-phpcs":
     cbfpath: "/usr/bin/phpcbf"
@@ -93,6 +95,8 @@
     ignore: "*.blade.php,*.twig.php,*.install,*.inc,settings.php"
     tabWidth: 2
   "linter-scss-lint": {}
+  "linter-twig":
+    executablePath: "/home/ra100/.composer/vendor/bin/twig-lint"
   "markdown-preview-plus": {}
   "merge-conflicts": {}
   minimap: {}
@@ -105,7 +109,8 @@
   "php-analyser":
     phpExecutablePath: "/usr/bin/php"
   pigments:
-    markerType: "dot"
+    groupPaletteColors: "by file"
+    mergeColorDuplicates: true
   react:
     enabledForAllJavascriptFiles: true
   "remote-sync": {}
