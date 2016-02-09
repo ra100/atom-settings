@@ -1,16 +1,1 @@
-terarium:
-  title: "terarium"
-  paths: [
-    "/home/ra100/Downloads/nodemcu/terarium"
-  ]
-m3dfio:
-  title: "m3dfio"
-  paths: [
-    "/home/ra100/Development/M3D-Fio"
-  ]
-  settings:
-    "*":
-      whitespace:
-        removeTrailingWhitespace: false
-        ensureSingleTrailingNewline: false
-        ignoreWhitespaceOnlyLines: true
+{}

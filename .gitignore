@@ -11,3 +11,5 @@ nohup.out
 .tags
 .tags*
 projects.cson
+vendor
+npm-debug.log
