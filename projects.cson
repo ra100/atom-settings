@@ -8,7 +8,9 @@ m3dfio:
   paths: [
     "/home/ra100/Development/M3D-Fio"
   ]
-  whitespace:
-    removeTrailingWhitespace: false
-    ensureSingleTrailingNewline: false
-    ignoreWhitespaceOnlyLines: true
+  settings:
+    "*":
+      whitespace:
+        removeTrailingWhitespace: false
+        ensureSingleTrailingNewline: false
+        ignoreWhitespaceOnlyLines: true
