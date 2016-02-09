@@ -36,7 +36,6 @@ language-generic-config
 language-latex
 language-log
 language-lua
-language-markdown
 language-nginx
 latex
 lessc-on-save

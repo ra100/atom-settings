@@ -7,6 +7,7 @@
     js_end_with_comma: true
     js_eval_code: true
     js_jslint_happy: true
+    language_markdown_default_beautifier: "Remark"
     markdown_commonmark: true
     markdown_footnotes: true
     markdown_yaml: false
@@ -70,8 +71,6 @@
   "grunt-runner": {}
   "js-hyperclick": {}
   "language-babel": {}
-  "language-markdown":
-    disableLanguageGfm: false
   latex:
     alwaysOpenResultInAtom: true
   "latex-plus":
@@ -79,7 +78,7 @@
     texBin: "/usr/bin/tex"
   "lessc-on-save": {}
   linter:
-    errorPanelHeight: 50
+    errorPanelHeight: 38
   "linter-ansible-linting": {}
   "linter-chktex": {}
   "linter-drupalcs":
@@ -88,8 +87,7 @@
     ignore: "*.js,*.md,*.features.field_base.inc,*.features.field_instance.inc,*.features.inc"
   "linter-eslint":
     disableWhenNoEslintConfig: false
-    eslintrcPath: "/home/ra100/.eslintrc"
-    globalNodePath: "/home/ra100/.nvm/versions/node/v5.5.0"
+    globalNodePath: "/usr/local"
     useGlobalEslint: true
   "linter-jshint":
     lintInlineJavaScript: true
