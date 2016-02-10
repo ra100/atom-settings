@@ -36,7 +36,6 @@ latex
 lessc-on-save
 line-diff-details
 linter
-linter-ansible-lint
 linter-eslint
 linter-handlebars
 linter-js-yaml
