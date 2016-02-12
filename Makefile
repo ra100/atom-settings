@@ -14,7 +14,7 @@ backup:               ## export package list and commit and push all changes
 	git commit packages.list -m "`uname -n` packages"
 	git add -A
 	git commit -a -m "other settings"
-	git push
+	git push origin "`uname -n`"
 
 restore:              ## pull settings and install packages
 	git stash
