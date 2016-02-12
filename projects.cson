@@ -1,1 +1,10 @@
-{}
+trumbowyg:
+  title: "Trumbowyg"
+  paths: [
+    "/home/ra100/Devel/Trumbowyg"
+  ]
+reportaze:
+  title: "reportaze"
+  paths: [
+    "/home/ra100/Devel/www/reportaze"
+  ]
