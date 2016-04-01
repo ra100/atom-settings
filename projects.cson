@@ -7,4 +7,64 @@ reportaze:
   title: "reportaze"
   paths: [
     "/home/ra100/Devel/www/reportaze"
+    "/home/ra100/Devel/wiki/reportaze"
+  ]
+"lab-ra100":
+  title: "lab-ra100"
+  paths: [
+    "/home/ra100/Devel/ra100/lab"
+    "/home/ra100/Devel/ra100/lab.ra100.net-config"
+  ]
+intranet:
+  title: "intranet"
+  paths: [
+    "/home/ra100/NetBeansProjects/intranet"
+  ]
+socialfeed:
+  title: "SocialFeed"
+  paths: [
+    "/home/ra100/Devel/sails-social-feed"
+    "/home/ra100/Documents/Projects"
+    "/home/ra100/NetBeansProjects/llamaLend"
+  ]
+aplikace:
+  title: "aplikace"
+  paths: [
+    "/home/ra100/NetBeansProjects/aplikaceD7"
+  ]
+cro:
+  title: "cro"
+  paths: [
+    "/home/ra100/Devel/cro"
+    "/home/ra100/Devel/ansible.dvm"
+    "/home/ra100/Documents/Projects"
+  ]
+lab:
+  title: "lab"
+  paths: [
+    "/home/ra100/Devel/ra100/lab"
+    "/home/ra100/Devel/ra100/lab.ra100.net-config"
+  ]
+slavcon:
+  title: "slavcon"
+  paths: [
+    "/home/ra100/Devel/ra100/slavcon"
+  ]
+kvizy:
+  title: "kvizy"
+  paths: [
+    "/home/ra100/NetBeansProjects/kvizy"
+    "/home/ra100/NetBeansProjects/aplikaceD7"
+  ]
+hlasuj:
+  title: "hlasuj"
+  paths: [
+    "/home/ra100/NetBeansProjects/hlasuj"
+    "/home/ra100/NetBeansProjects/aplikaceD7"
+  ]
+formulare:
+  title: "formulare"
+  paths: [
+    "/home/ra100/NetBeansProjects/formulare"
+    "/home/ra100/NetBeansProjects/aplikaceD7"
   ]
