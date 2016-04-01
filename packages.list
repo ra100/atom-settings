@@ -1,6 +1,7 @@
 atom-autocomplete-php
 atom-beautify
 atom-ctags
+atom-drupal-api
 atom-format-lua
 atom-handlebars
 atom-jinja2
@@ -23,6 +24,7 @@ git-log
 git-plus
 indent-guide-improved
 language-apache
+language-api-blueprint
 language-babel
 language-generic-config
 language-handlebars
@@ -49,11 +51,11 @@ merge-conflicts
 minimap
 nucleus-dark-ui
 pdf-view
-phpcbf
 pigments
 project-manager
 react
 remote-sync
+sass-autocompile
 split-diff
 ssh-config
 tabs-closer
