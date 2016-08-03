@@ -1,4 +1,3 @@
-atom-autocomplete-php
 atom-beautify
 atom-ctags
 atom-format-lua
@@ -37,13 +36,11 @@ latex
 lessc-on-save
 line-diff-details
 linter
-linter-ansible-lint
 linter-eslint
 linter-js-yaml
 linter-less
 linter-lua
 linter-markdown
-linter-phpcs
 linter-scss-lint
 make-runner
 merge-conflicts
