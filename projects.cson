@@ -1,1 +1,62 @@
-{}
+[
+  {
+    title: "blog-ra100"
+    paths: [
+      "/home/ra100/Development/blog-ra100"
+    ]
+  }
+  {
+    title: "atom-beautify"
+    paths: [
+      "/home/ra100/.atom/packages/atom-beautify"
+    ]
+  }
+  {
+    title: "slavcon"
+    paths: [
+      "/home/ra100/Development/slavcon"
+    ]
+  }
+  {
+    title: "nodemcu"
+    paths: [
+      "/home/ra100/Downloads/nodemcu/nodemcu-elog"
+      "/home/ra100/Downloads/nodemcu/nodemcu-lightsd"
+      "/home/ra100/Downloads/nodemcu/terarium"
+    ]
+  }
+  {
+    title: "M3D-Fio"
+    paths: [
+      "/run/user/1000/gvfs/smb-share:server=gkar,share=data/pi/devel/M3D-Fio"
+      "/run/user/1000/gvfs/sftp:host=192.168.150.12,port=24,user=pi/home/pi/Development/M3D-Fio"
+    ]
+  }
+  {
+    title: "Stdiplomacy"
+    paths: [
+      "/home/ra100/Development/stdiplomacy"
+    ]
+  }
+  {
+    title: "Sails Social Feed"
+    paths: [
+      "/home/ra100/Development/sails-social-feed"
+      "/home/ra100/Development/CRO/shoutbox-widget"
+    ]
+  }
+  {
+    title: "intranet"
+    paths: [
+      "/home/ra100/Development/CRO/intranetD6"
+      "/home/ra100/Development/CRO/intranetD7"
+      "/home/ra100/Development/CRO/intranet_dotazy"
+    ]
+  }
+  {
+    title: "3D stuff"
+    paths: [
+      "/home/ra100/ownCloud/Documents/3d"
+    ]
+  }
+]
