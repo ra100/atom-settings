@@ -1,16 +1,23 @@
 "*":
   "atom-autocomplete-php": {}
   "atom-beautify":
-    _analyticsUserId: "ee112437-8958-40b0-8e6a-cbe3efabb293"
-    css_newline_between_rules: true
-    js_break_chained_methods: true
-    js_end_with_comma: true
-    js_eval_code: true
-    js_jslint_happy: true
-    language_markdown_default_beautifier: "Remark"
-    markdown_commonmark: true
-    markdown_footnotes: true
-    markdown_yaml: false
+    css:
+      newline_between_rules: true
+    general:
+      _analyticsUserId: "ee112437-8958-40b0-8e6a-cbe3efabb293"
+    js:
+      break_chained_methods: true
+      end_with_comma: true
+      eval_code: true
+      indent_size: 2
+      jslint_happy: true
+    jsx:
+      space_after_anon_function: true
+    markdown:
+      commonmark: true
+      default_beautifier: "Remark"
+      footnotes: true
+      yaml: false
   "atom-ctags":
     GotoSymbolKey: [
       "ctrl"
@@ -36,26 +43,37 @@
       "whitespace"
       "atom-phpcs"
       "atom-autocomplete-php"
-      "tree-view"
       "gulp-manager"
       "ansible-galaxy"
       "commentcode"
       "fast-eslint"
-      "language-markdown"
       "symbols-view"
       "js-hyperclick"
       "hyperclick-php"
       "hyperclick"
+      "grunt-runner"
+      "linter-markdown"
+      "esformatter"
+      "react"
+      "language-jsx"
+      "linter-js-standard-jsx"
+      "welcome"
+      "spell-check"
+      "standard-formatter"
     ]
+    packagesWithKeymapsDisabled: []
     themes: [
-      "nucleus-dark-ui"
-      "base16-tomorrow-dark-theme"
+      "seti-ui"
+      "seti-syntax"
     ]
+  "coverage-gutter":
+    basePath: "/Users/svarba/Devel/wiw/web-frontend"
+    pathToLCOV: "/Users/svarba/Devel/wiw/web-frontend/logs/coverage/report-lcov/lcov.info"
   docblockr: {}
   drupal:
     fileTypesPhp: "module,install,inc,test"
   editor:
-    fontSize: 16
+    fontSize: 12
     invisibles: {}
   "exception-reporting":
     userId: "3150446c-fbf9-6dd0-54b2-2eb2d3c90336"
@@ -63,10 +81,12 @@
     promptWhenFileHasChangedOnDisk: false
   "foldername-tabs": {}
   "gfm-pdf": {}
+  "git-diff": {}
   "git-history":
     showDiff: false
   "git-log": {}
   "git-plus":
+    experimental: true
     gitPath: "/usr/bin/git"
   goto: {}
   "grunt-runner": {}
@@ -79,9 +99,11 @@
   "latex-plus":
     bibtexEnabled: true
     texBin: "/usr/bin/tex"
+  "lcov-info":
+    highlightType: "gutter"
   "lessc-on-save": {}
   linter:
-    errorPanelHeight: 50
+    errorPanelHeight: 24
   "linter-chktex": {}
   "linter-drupalcs":
     disableWhenNoConfigFile: true
@@ -89,8 +111,7 @@
     ignore: "*.js,*.md,*.features.field_base.inc,*.features.field_instance.inc,*.features.inc"
   "linter-eslint":
     disableWhenNoEslintConfig: false
-    eslintrcPath: "/home/ra100/.eslintrc"
-    globalNodePath: "/home/ra100/.nvm/versions/node/v5.5.0"
+    globalNodePath: "/Users/svarba/.nvm/versions/node/v7.1.0"
     useGlobalEslint: true
   "linter-jshint":
     lintInlineJavaScript: true
@@ -106,9 +127,14 @@
     ignore: "*.blade.php,*.twig.php,*.install,*.inc,settings.php"
     tabWidth: 2
   "linter-scss-lint": {}
+  "linter-spell":
+    spellPath: "aspell"
   "markdown-preview-plus": {}
   "merge-conflicts": {}
-  minimap: {}
+  minimap:
+    plugins:
+      pigments: false
+      pigmentsDecorationsZIndex: 0
   navigate:
     dblclk: true
   nuclide:
@@ -122,15 +148,23 @@
   react:
     enabledForAllJavascriptFiles: true
   "remote-sync": {}
+  "seti-syntax":
+    dynamicColor: false
+  "seti-ui":
+    compactView: true
+    themeColor: "Steel"
   "slim-dark-ui": {}
   "spell-check": {}
   "symbols-tree-view": {}
   "terminal-panel": {}
   "terminal-status": {}
+  "tree-view": {}
   "tree-view-git-status": {}
   "ult-terminal": {}
   wakatime:
-    apikey: "2aa4d346-0817-477e-bdaa-95896ee9f1f7"
+    apikey: "Saved in your ~/.wakatime.cfg file"
+  "wakatime-hidden":
+    lastInit: 1479198866
   welcome:
     showOnStartup: false
   whitespace:

@@ -1,1 +1,21 @@
-{}
+[
+  {
+    title: "teachback"
+    paths: [
+      "/Users/svarba/Documents/teachback/presentation"
+    ]
+  }
+  {
+    title: "Mcon"
+    paths: [
+      "/Users/svarba/Devel/mcon/MCon/backend"
+      "/Users/svarba/Devel/mcon/MCon"
+    ]
+  }
+  {
+    title: "WhoIsWho"
+    paths: [
+      "/Users/svarba/Devel/wiw/web-frontend"
+    ]
+  }
+]
