@@ -8,7 +8,7 @@ export-packages: packages/*/   ## saves list of packages to packages.list
 	ls packages/ > packages.list
 
 backup:               ## export package list and commit and push all changes
-	git checkout (uname -n)
+	git checkout "`uname -n`"
 	ls packages/ > packages.list
 	git add packages.list
 	git commit packages.list -m "`uname -n` packages"

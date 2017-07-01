@@ -1,27 +1,76 @@
 "*":
   "atom-autocomplete-php": {}
   "atom-beautify":
-    _analyticsUserId: "ee112437-8958-40b0-8e6a-cbe3efabb293"
-    css_newline_between_rules: true
-    js_break_chained_methods: true
-    js_end_with_comma: true
-    js_eval_code: true
-    js_jslint_happy: true
-    language_markdown_default_beautifier: "Remark"
-    markdown_commonmark: true
-    markdown_footnotes: true
-    markdown_yaml: false
+    apex: {}
+    arduino: {}
+    c: {}
+    cfml: {}
+    coffeescript: {}
+    cpp: {}
+    cs: {}
+    css:
+      newline_between_rules: true
+    d: {}
+    ejs: {}
+    erb: {}
+    fortran: {}
+    general:
+      _analyticsUserId: "ee112437-8958-40b0-8e6a-cbe3efabb293"
+    gherkin: {}
+    handlebars: {}
+    html: {}
+    jade: {}
+    java: {}
+    js:
+      break_chained_methods: true
+      end_with_comma: true
+      eval_code: true
+      jslint_happy: true
+    json: {}
+    jsx: {}
+    latex: {}
+    less: {}
+    markdown:
+      commonmark: true
+      footnotes: true
+      yaml: false
+    marko: {}
+    mustache: {}
+    objectivec: {}
+    pawn: {}
+    perl: {}
+    php:
+      default_beautifier: "PHPCBF"
+    python: {}
+    riot: {}
+    ruby: {}
+    rust: {}
+    sass: {}
+    scss: {}
+    spacebars: {}
+    sql: {}
+    svg: {}
+    swig: {}
+    tss: {}
+    twig: {}
+    typescript: {}
+    vala: {}
+    visualforce: {}
+    xml: {}
+    xtemplate: {}
   "atom-ctags":
     GotoSymbolKey: [
       "ctrl"
     ]
     buildTimeout: 30000
-    cmdArgs: "--exclude=.git --exclude=node_modules --exclude=vendor --exclude=bower_modules --exclude=.tmp --exclude=.sass-cache --exclude=sites/*/files --exclude=www/sites/*/files"
+    cmdArgs: "--exclude=.git --exclude=node_modules --exclude=vendor --exclude=bower_modules --exclude=.tmp --exclude=.sass-cache --exclude=sites/*/files --exclude=www/sites/*/files --exclude=.remote-sync.json --exclude=sites/*/settings.php --exclude=libraries"
   "atom-minify": {}
   "atom-phpcs":
     cbfpath: "/usr/bin/phpcbf"
     path: "/usr/local/bin/phpcs"
   "atom-terminal-panel": {}
+  "atom-ternjs":
+    useSnippets: true
   "atom-typescript": {}
   "autocomplete-plus": {}
   core:
@@ -33,32 +82,42 @@
       "linter-chktex"
       "advanced-open-file"
       "navigate"
-      "whitespace"
-      "atom-phpcs"
-      "atom-autocomplete-php"
-      "tree-view"
-      "gulp-manager"
-      "ansible-galaxy"
-      "commentcode"
-      "fast-eslint"
-      "language-markdown"
       "symbols-view"
-      "js-hyperclick"
-      "hyperclick-php"
-      "hyperclick"
+      "whitespace"
+      "platformio-ide"
+      "platformio-aia"
+      "autocomplete-clang"
+      "activate-power-mode"
+      "linter-js-yaml"
+      "metrics"
+      "qolor"
+      "linter-scss-lint"
+      "linter-gcc"
+      "linter-phpcs"
+      "atom-ctags"
+      "pigments"
+      "minimap-pigments"
+      "autocomplete-ctags"
+      "wakatime"
     ]
+    telemetryConsent: "limited"
     themes: [
-      "nucleus-dark-ui"
-      "base16-tomorrow-dark-theme"
+      "seti-ui"
+      "seti-syntax"
     ]
+  "dark-flat-ui": {}
   docblockr: {}
   drupal:
     fileTypesPhp: "module,install,inc,test"
   editor:
-    fontSize: 16
+    fontSize: 12
     invisibles: {}
+    showInvisibles: true
+    softWrap: true
   "exception-reporting":
     userId: "3150446c-fbf9-6dd0-54b2-2eb2d3c90336"
+  "file-icons":
+    coloured: false
   "file-watcher":
     promptWhenFileHasChangedOnDisk: false
   "foldername-tabs": {}
@@ -67,21 +126,20 @@
     showDiff: false
   "git-log": {}
   "git-plus":
-    gitPath: "/usr/bin/git"
+    general:
+      _analyticsUserId: "fa855d12-7ed3-4a71-8c4c-ec45a8602c09"
   goto: {}
   "grunt-runner": {}
   "js-hyperclick": {}
   "language-babel": {}
-  "language-markdown":
-    disableLanguageGfm: false
   latex:
     alwaysOpenResultInAtom: true
   "latex-plus":
     bibtexEnabled: true
     texBin: "/usr/bin/tex"
-  "lessc-on-save": {}
-  linter:
-    errorPanelHeight: 50
+  "lessc-on-save":
+    enabled: false
+  linter: {}
   "linter-chktex": {}
   "linter-drupalcs":
     disableWhenNoConfigFile: true
@@ -90,8 +148,9 @@
   "linter-eslint":
     disableWhenNoEslintConfig: false
     eslintrcPath: "/home/ra100/.eslintrc"
-    globalNodePath: "/home/ra100/.nvm/versions/node/v5.5.0"
+    globalNodePath: "/usr/local"
     useGlobalEslint: true
+  "linter-js-yaml": {}
   "linter-jshint":
     lintInlineJavaScript: true
   "linter-jsxhint":
@@ -105,10 +164,32 @@
     executablePath: "/usr/bin/phpcs"
     ignore: "*.blade.php,*.twig.php,*.install,*.inc,settings.php"
     tabWidth: 2
-  "linter-scss-lint": {}
+  "linter-scss-lint":
+    executablePath: "/usr/local/bin/scss-lint"
+  "linter-twig":
+    executablePath: "/home/ra100/.composer/vendor/bin/twig-lint"
+  "linter-ui-default":
+    panelHeight: 56
   "markdown-preview-plus": {}
   "merge-conflicts": {}
-  minimap: {}
+  minimap:
+    plugins:
+      codeglance: true
+      codeglanceDecorationsZIndex: 0
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+      pigments: false
+      pigmentsDecorationsZIndex: 0
+      "split-diff": true
+      "split-diffDecorationsZIndex": 0
   navigate:
     dblclk: true
   nuclide:
@@ -118,19 +199,37 @@
   "php-analyser":
     phpExecutablePath: "/usr/bin/php"
   pigments:
-    markerType: "dot"
+    groupPaletteColors: "by file"
+    mergeColorDuplicates: true
+  "platformio-ide":
+    showHomeScreen: false
   react:
     enabledForAllJavascriptFiles: true
   "remote-sync": {}
+  "seti-syntax":
+    dynamicColor: false
+  "seti-ui":
+    compactView: true
+    disableAnimations: true
+    themeColor: "Steel"
   "slim-dark-ui": {}
   "spell-check": {}
+  "split-diff":
+    ignoreWhitespace: true
   "symbols-tree-view": {}
   "terminal-panel": {}
   "terminal-status": {}
+  "tool-bar":
+    position: "Bottom"
+    visible: false
+  "tree-view":
+    hideVcsIgnoredFiles: false
   "tree-view-git-status": {}
   "ult-terminal": {}
   wakatime:
-    apikey: "2aa4d346-0817-477e-bdaa-95896ee9f1f7"
+    apikey: "Saved in your ~/.wakatime.cfg file"
+  "wakatime-hidden":
+    lastInit: 1493473191
   welcome:
     showOnStartup: false
   whitespace:
