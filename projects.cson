@@ -26,13 +26,6 @@
     ]
   }
   {
-    title: "M3D-Fio"
-    paths: [
-      "/run/user/1000/gvfs/smb-share:server=gkar,share=data/pi/devel/M3D-Fio"
-      "/run/user/1000/gvfs/sftp:host=192.168.150.12,port=24,user=pi/home/pi/Development/M3D-Fio"
-    ]
-  }
-  {
     title: "Stdiplomacy"
     paths: [
       "/home/ra100/Development/stdiplomacy"
@@ -54,9 +47,15 @@
     ]
   }
   {
-    title: "3D stuff"
+    title: "Triant Cz"
     paths: [
-      "/home/ra100/ownCloud/Documents/3d"
+      "/home/ra100/Development/triant.cz"
+    ]
+  }
+  {
+    title: "3d"
+    paths: [
+      "/home/ra100/Documents/3d"
     ]
   }
 ]

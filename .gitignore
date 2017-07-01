@@ -13,3 +13,7 @@ nohup.out
 projects.cson
 vendor
 npm-debug.log
+recovery
+split-diff
+git-time-machine
+grammar-config

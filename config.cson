@@ -69,6 +69,8 @@
     cbfpath: "/usr/bin/phpcbf"
     path: "/usr/local/bin/phpcs"
   "atom-terminal-panel": {}
+  "atom-ternjs":
+    useSnippets: true
   "atom-typescript": {}
   "autocomplete-plus": {}
   core:
@@ -86,12 +88,17 @@
       "platformio-aia"
       "autocomplete-clang"
       "activate-power-mode"
-      "drupal"
-      "file-icons"
       "linter-js-yaml"
       "metrics"
       "qolor"
       "linter-scss-lint"
+      "linter-gcc"
+      "linter-phpcs"
+      "atom-ctags"
+      "pigments"
+      "minimap-pigments"
+      "autocomplete-ctags"
+      "wakatime"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -103,7 +110,7 @@
   drupal:
     fileTypesPhp: "module,install,inc,test"
   editor:
-    fontSize: 13
+    fontSize: 12
     invisibles: {}
     showInvisibles: true
     softWrap: true
@@ -119,7 +126,8 @@
     showDiff: false
   "git-log": {}
   "git-plus":
-    gitPath: "/usr/bin/git"
+    general:
+      _analyticsUserId: "fa855d12-7ed3-4a71-8c4c-ec45a8602c09"
   goto: {}
   "grunt-runner": {}
   "js-hyperclick": {}
@@ -131,8 +139,7 @@
     texBin: "/usr/bin/tex"
   "lessc-on-save":
     enabled: false
-  linter:
-    errorPanelHeight: 56
+  linter: {}
   "linter-chktex": {}
   "linter-drupalcs":
     disableWhenNoConfigFile: true
@@ -140,6 +147,7 @@
     ignore: "*.js,*.md,*.features.field_base.inc,*.features.field_instance.inc,*.features.inc"
   "linter-eslint":
     disableWhenNoEslintConfig: false
+    eslintrcPath: "/home/ra100/.eslintrc"
     globalNodePath: "/usr/local"
     useGlobalEslint: true
   "linter-js-yaml": {}
@@ -160,9 +168,28 @@
     executablePath: "/usr/local/bin/scss-lint"
   "linter-twig":
     executablePath: "/home/ra100/.composer/vendor/bin/twig-lint"
+  "linter-ui-default":
+    panelHeight: 56
   "markdown-preview-plus": {}
   "merge-conflicts": {}
-  minimap: {}
+  minimap:
+    plugins:
+      codeglance: true
+      codeglanceDecorationsZIndex: 0
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+      pigments: false
+      pigmentsDecorationsZIndex: 0
+      "split-diff": true
+      "split-diffDecorationsZIndex": 0
   navigate:
     dblclk: true
   nuclide:
@@ -187,6 +214,8 @@
     themeColor: "Steel"
   "slim-dark-ui": {}
   "spell-check": {}
+  "split-diff":
+    ignoreWhitespace: true
   "symbols-tree-view": {}
   "terminal-panel": {}
   "terminal-status": {}
@@ -200,7 +229,7 @@
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1479384160
+    lastInit: 1493473191
   welcome:
     showOnStartup: false
   whitespace:
