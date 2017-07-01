@@ -10,10 +10,10 @@ nohup.out
 .git-history
 .tags
 .tags*
-# projects.cson
+projects.cson
 vendor
 npm-debug.log
 recovery
-# split-diff
+split-diff
 git-time-machine
 grammar-config
