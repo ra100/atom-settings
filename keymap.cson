@@ -3,3 +3,4 @@
   'ctrl-shift-z': 'core:redo'
   'ctrl-shift-up': 'atom-ctags:return-from-declaration'
   'ctrl-shift-down': 'atom-ctags:go-to-declaration'
+  'ctrl-alt-d': 'git-diff-details:toggle-git-diff-details'

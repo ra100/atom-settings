@@ -18,17 +18,26 @@
       default_beautifier: "Remark"
       footnotes: true
       yaml: false
+    php:
+      default_beautifier: "PHPCBF"
+      phpcbf_path: "/Users/svarba/.composer/vendor/bin/phpcbf"
+      standard: "WordPress-VIP"
   "atom-ctags":
     GotoSymbolKey: [
       "ctrl"
     ]
     buildTimeout: 30000
     cmdArgs: "--exclude=.git --exclude=node_modules --exclude=vendor --exclude=bower_modules --exclude=.tmp --exclude=.sass-cache --exclude=sites/*/files --exclude=www/sites/*/files"
+  "atom-easy-jsdoc":
+    beta: true
   "atom-minify": {}
   "atom-phpcs":
     cbfpath: "/usr/bin/phpcbf"
     path: "/usr/local/bin/phpcs"
   "atom-terminal-panel": {}
+  "atom-ternjs":
+    snippetsFirst: true
+    useSnippets: true
   "atom-typescript": {}
   "autocomplete-plus": {}
   core:
@@ -40,19 +49,14 @@
       "linter-chktex"
       "advanced-open-file"
       "navigate"
-      "whitespace"
       "atom-phpcs"
       "atom-autocomplete-php"
       "gulp-manager"
       "ansible-galaxy"
-      "commentcode"
       "fast-eslint"
       "symbols-view"
-      "js-hyperclick"
       "hyperclick-php"
-      "hyperclick"
       "grunt-runner"
-      "linter-markdown"
       "esformatter"
       "react"
       "language-jsx"
@@ -60,8 +64,25 @@
       "welcome"
       "spell-check"
       "standard-formatter"
+      "linter-scss-lint"
+      "livestyle-atom"
+      "language-elmx"
+      "commentcode"
+      "lcov-info"
+      "minimap-autohide"
+      "atom-ctags"
+      "wordpress-api"
+      "linter-flow"
+      "pigments"
+      "minimap-pigments"
+      "hyperclick-robot-framework"
+      "js-hyperclick"
+      "vue-hyperclick"
+      "markdown-preview"
     ]
-    packagesWithKeymapsDisabled: []
+    packagesWithKeymapsDisabled: [
+      "git-diff"
+    ]
     themes: [
       "seti-ui"
       "seti-syntax"
@@ -73,8 +94,12 @@
   drupal:
     fileTypesPhp: "module,install,inc,test"
   editor:
-    fontSize: 12
+    fontSize: 13
     invisibles: {}
+    showInvisibles: true
+    zoomFontWhenCtrlScrolling: true
+  "env-from-shell":
+    autoRun: true
   "exception-reporting":
     userId: "3150446c-fbf9-6dd0-54b2-2eb2d3c90336"
   "file-watcher":
@@ -82,16 +107,18 @@
   "foldername-tabs": {}
   "gfm-pdf": {}
   "git-diff": {}
-  "git-history":
-    showDiff: false
+  "git-history": {}
   "git-log": {}
   "git-plus":
-    experimental: true
-    gitPath: "/usr/bin/git"
+    general:
+      _analyticsUserId: "d4b1f2a2-65ad-4480-ab3a-0d2e892a41df"
   goto: {}
   "grunt-runner": {}
   "js-hyperclick": {}
   "language-babel": {}
+  "language-elm":
+    autocompleteEnabled: false
+    elmOraclePath: "/Users/svarba/.nvm/versions/node/v7.3.0/bin/elm-oracle"
   "language-markdown":
     disableLanguageGfm: false
   latex:
@@ -102,8 +129,7 @@
   "lcov-info":
     highlightType: "gutter"
   "lessc-on-save": {}
-  linter:
-    errorPanelHeight: 24
+  linter: {}
   "linter-chktex": {}
   "linter-drupalcs":
     disableWhenNoConfigFile: true
@@ -111,7 +137,7 @@
     ignore: "*.js,*.md,*.features.field_base.inc,*.features.field_instance.inc,*.features.inc"
   "linter-eslint":
     disableWhenNoEslintConfig: false
-    globalNodePath: "/Users/svarba/.nvm/versions/node/v7.1.0"
+    globalNodePath: "/Users/svarba/.nvm/versions/node/v8.0.0"
     useGlobalEslint: true
   "linter-jshint":
     lintInlineJavaScript: true
@@ -123,16 +149,34 @@
   "linter-php":
     executablePath: "/usr/bin/php"
   "linter-phpcs":
-    executablePath: "/usr/bin/phpcs"
+    codeStandardOrConfigFile: "WordPress-VIP"
+    executablePath: "/Users/svarba/.composer/vendor/bin/phpcs"
     ignore: "*.blade.php,*.twig.php,*.install,*.inc,settings.php"
     tabWidth: 2
-  "linter-scss-lint": {}
+  "linter-scss-lint":
+    executablePath: "/Users/svarba/.rvm/gems/ruby-2.4.0/wrappers/scss-lint"
   "linter-spell":
     spellPath: "aspell"
+  "linter-ui-default":
+    panelHeight: 56
   "markdown-preview-plus": {}
   "merge-conflicts": {}
   minimap:
     plugins:
+      codeglance: true
+      codeglanceDecorationsZIndex: 0
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "find-and-replace": true
+      "find-and-replaceDecorationsZIndex": 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
+      "minimap-autohide": true
+      "minimap-autohideDecorationsZIndex": 0
       pigments: false
       pigmentsDecorationsZIndex: 0
   navigate:
@@ -150,25 +194,29 @@
   "remote-sync": {}
   "seti-syntax":
     dynamicColor: false
+    themeColor: "Steel"
   "seti-ui":
     compactView: true
-    themeColor: "Steel"
   "slim-dark-ui": {}
   "spell-check": {}
+  "split-diff":
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
   "symbols-tree-view": {}
   "terminal-panel": {}
   "terminal-status": {}
+  "trailing-spaces": {}
   "tree-view": {}
   "tree-view-git-status": {}
   "ult-terminal": {}
   wakatime:
     apikey: "Saved in your ~/.wakatime.cfg file"
   "wakatime-hidden":
-    lastInit: 1479198866
+    lastInit: 1492673654
   welcome:
     showOnStartup: false
-  whitespace:
-    ensureSingleTrailingNewline: false
+  whitespace: {}
 ".coffee.jsx.source":
   editor:
     autoIndentOnPaste: true
