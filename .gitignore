@@ -10,3 +10,5 @@ nohup.out
 .git-history
 .tags
 .tags*
+split-diff
+projects.cson
